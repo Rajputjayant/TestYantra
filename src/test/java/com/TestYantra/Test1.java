@@ -9,4 +9,9 @@ public class Test1 {
 	{
 		System.out.println("I am jenkins");
 	}
+	@Test
+	public void java()
+	{
+		System.out.println("I am java");
+	}
 }
