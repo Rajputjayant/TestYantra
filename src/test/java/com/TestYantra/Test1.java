@@ -14,4 +14,9 @@ public class Test1 {
 	{
 		System.out.println("I am java");
 	}
+	@Test
+	public void manual()
+	{
+		System.out.println(" I am manual tester");
+	}
 }
