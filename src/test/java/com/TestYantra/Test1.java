@@ -4,17 +4,17 @@ import org.testng.annotations.Test;
 
 public class Test1 {
 
-	@Test
+	@Test(groups="Intregration")
 	public void jenkin()
 	{
 		System.out.println("I am jenkins");
 	}
-	@Test
+	@Test(groups= "Smoke")
 	public void java()
 	{
 		System.out.println("I am java");
 	}
-	@Test
+	@Test(groups="Smoke")
 	public void manual()
 	{
 		System.out.println(" I am manual tester");
